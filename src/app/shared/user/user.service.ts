@@ -25,7 +25,7 @@ export class UserService {
     } else {
       console.log('post');
       result = this.http.post(this.USER_API, user);
-      console.log('result='+result);
+      console.log('result=' + result);
     }
     return result;
   }
